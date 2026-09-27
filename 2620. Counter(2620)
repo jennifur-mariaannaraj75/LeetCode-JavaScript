@@ -1,0 +1,28 @@
+/**
+ * @param {number} n
+ * @return {Function} counter
+ */
+var createCounter = function(n) {
+    
+    return function() {
+        return n++;
+        
+    };
+};
+
+/** 
+ * const counter = createCounter(10)
+ * counter() // 10
+ * counter() // 11
+ * counter() // 12
+ */
+
+Input
+n =
+10
+calls =
+["call","call","call"]
+Output
+[10,11,12]
+Expected
+[10,11,12]
